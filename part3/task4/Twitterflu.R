@@ -10,10 +10,10 @@ library(dplyr)
 register_google(key = 'AIzaSyAqU3dQ5RUHNQJ5Tnl0Odyp1bk2Jiu6bmA') 
 create_token(
   app = "DIC lab 1",
-  consumer_key = "jK2bsMkRHNXthROyrplDieZaV",
-  consumer_secret = "4mjuIGQWkBtZJVq1ffyN4b9GCty6ChDRJxdUBFzxRUyqzHPOUw",
-  access_token = "128911319-6epULaDIDCVxrjPxB29LHPvOH0vnhnvvdscGRH9n",
-  access_secret = "xnZvtP6ZUaMDNoVeCiUSmXDL9fv7cqZqipoUdzPcc54L0")
+  consumer_key = "",
+  consumer_secret = "",
+  access_token = "",
+  access_secret = "")
 rt <- search_tweets(q="flu",geocode = lookup_coords("usa"), n = 3000,include_rts = FALSE)
 rtinf <- search_tweets(q="influenza",geocode = lookup_coords("usa"), n = 3000,include_rts = FALSE)
 rtcough<-search_tweets(q="cough",geocode = lookup_coords("usa"), n = 3000,include_rts = FALSE)
