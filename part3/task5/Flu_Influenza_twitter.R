@@ -7,7 +7,7 @@ library(maps)
 library(usmap)
 library(ggmap)
 library(dplyr)
-register_google(key = 'AIzaSyAqU3dQ5RUHNQJ5Tnl0Odyp1bk2Jiu6bmA') 
+register_google(key = '') 
 create_token(
   app = "DIC lab 1",
   consumer_key = "",
